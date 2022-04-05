@@ -1,3 +1,12 @@
+#!/bin/bash
+
+num1=$(<num1.txt)
+num2=$(<num2.txt)
+
+declare -a arr=("$num1" "$num2")
+
+echo "project management in github"
+
 if [ $# -le 0 ]; then
         echo "...none operator paraeter..."
         echo "1.add"
